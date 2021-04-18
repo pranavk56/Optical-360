@@ -1,0 +1,11 @@
+.collection-preview {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 0 0 6rem;
+    width: 90%;
+}
+
+.collection-preview > img {
+    width: 97%;
+    height: 95%;
+}

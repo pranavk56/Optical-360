@@ -1,0 +1,14 @@
+.scroll-to-top {
+    float: right;
+    position: sticky;
+    left: 100vw;
+    bottom: 0;
+    cursor: pointer;
+    padding: 10px 5px 5px 0px;
+}
+
+.scroll-to-top > button {
+    border-radius: 0.5rem;
+    height: 40px;
+    width: 50px;
+}
