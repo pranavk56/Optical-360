@@ -1,19 +1,20 @@
 import './collectionpreview.styles.css';
 
-export default function CollectionPreview() {
-
+export default function CollectionPreview(props) {
     return (
-        <div className="collection-preview">
-            <img src="specs_collection1.jpg" alt="1"/>
-            <img src="specs_collection1.jpg" alt="2"/>
-            <img src="specs_collection1.jpg" alt="3"/>
-            <img src="specs_collection1.jpg" alt="4"/>
-            <h1>Spectacles</h1>
-            <h1>Lenses</h1>
-            <h1>Sunglasses</h1>
-            <h1>Watches</h1>
-        </div>
-
-
+        <main className="collection-preview">
+        {
+            props.collectionItems.map((elem) => {
+                return (
+                    <div>
+                        <img src={elem.imageSource} alt={elem.alt} />
+                        <div className="collection-name">
+                            {elem.collectionName}
+                        </div>
+                    </div>
+                )
+            })
+        }
+        </main>
     )
 } 
