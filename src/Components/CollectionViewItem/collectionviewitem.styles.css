@@ -1,0 +1,22 @@
+.collection-item {
+    width: 97%;
+    height: 95%;
+    border: 2px solid black;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+.collection-item > img {
+    max-width: 100%;
+    max-height: auto;
+    transition: transform 5s, filter 3s ease-in-out;
+}
+
+.collection-view-item {
+    margin-bottom: 10rem;
+}
+
+.collection-view-item > h2 {
+    text-align: center;
+}

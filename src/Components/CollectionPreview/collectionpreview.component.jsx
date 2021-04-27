@@ -1,4 +1,5 @@
 import './collectionpreview.styles.css';
+import CollectionItem from '../CollectionItem/collectionitem.component';
 
 export default function CollectionPreview(props) {
     return (
@@ -6,12 +7,7 @@ export default function CollectionPreview(props) {
         {
             props.collectionItems.map((elem) => {
                 return (
-                    <div>
-                        <img src={elem.imageSource} alt={elem.alt} />
-                        <div className="collection-name">
-                            {elem.collectionName}
-                        </div>
-                    </div>
+                    <CollectionItem data={elem} />
                 )
             })
         }

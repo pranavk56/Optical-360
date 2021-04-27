@@ -1,0 +1,38 @@
+.collection-item {
+    width: 97%;
+    height: 95%;
+    border: 2px solid black;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+.collection-item > img {
+    max-width: 100%;
+    max-height: auto;
+    transition: transform 5s, filter 3s ease-in-out;
+}
+
+.collection-item > img:hover {
+    transform: scale(1.1);
+}
+
+.collection-name {
+    z-index: 2;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: white;
+    width: 155px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.collection-name:hover {
+    opacity: 0.9;
+}

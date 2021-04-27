@@ -1,19 +1,19 @@
-const itemsArray = [{
+const ITEMS_ARRAY = [{
     alt: "spectacles",
     imageSource: "spectacles1.jpg",
-    collectionName: "Spectacles"
+    collectionName: "SPECTACLES"
 },{
     alt: "sunglasses",
     imageSource: "sunglasses3.jpg",
-    collectionName: "Sunglasses"
+    collectionName: "SUNGLASSES"
 },{
     alt: "lenses",
     imageSource: "lenses.jpg",
-    collectionName: "Lenses"
+    collectionName: "LENSES"
 },{
     alt: "watches",
     imageSource: "watches.jpg",
-    collectionName: "Watches"
+    collectionName: "WATCHES"
 }]
 
-export default itemsArray;
+export default ITEMS_ARRAY;

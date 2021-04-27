@@ -5,37 +5,3 @@
     width: 90%;
     align-self: center;
 }
-
-.collection-preview > div {
-    width: 97%;
-    height: 95%;
-    border: 2px solid black;
-    border-radius: 2px;
-    overflow: hidden;
-    position: relative;
-}
-
-.collection-preview > div > img {
-    max-width: 100%;
-    max-height: auto;
-    transition: transform 5s, filter 3s ease-in-out;
-}
-
-.collection-preview > div > img:hover {
-    transform: scale(1.2);
-}
-
-.collection-name {
-    z-index: 2;
-    position: absolute;
-    top: 2%;
-    right: 1%;
-    background-color: white;
-    width: 100px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    cursor: pointer;
-}

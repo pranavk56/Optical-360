@@ -1,0 +1,24 @@
+.contact > h2 {
+    text-align: center;
+}
+
+.contact-row-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-row-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+}
+
+.contact-icon > a > i {
+    color: black;
+}
