@@ -9,6 +9,7 @@ import Contact from './Components/Contact/contact.component';
 function App() {
   return (
     <div className="App">
+      
       <Home />
       <CollectionPreview collectionItems={ITEMS_ARRAY}/>
       <CollectionView />

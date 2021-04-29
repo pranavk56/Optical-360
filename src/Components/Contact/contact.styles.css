@@ -1,8 +1,34 @@
+.contact {
+    background-color: black;
+}
 .contact > h2 {
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+}
+
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.contact-icons > * {
+    flex: 1 1 30%;
     text-align: center;
 }
 
-.contact-row-1 {
+.contact-icon p {
+    color: white;
+}
+
+.contact-phone number {
+    color: white;
+}
+
+/* .contact-row-1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -17,8 +43,5 @@
     padding-left: 15%;
     padding-right: 15%;
     text-align: center;
-}
+} */
 
-.contact-icon > a > i {
-    color: black;
-}

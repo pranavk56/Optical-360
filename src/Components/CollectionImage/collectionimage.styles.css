@@ -1,0 +1,8 @@
+.collection-image  img {
+    height: 100%;
+    width: 100%;
+}
+
+.collection-image h3 {
+    text-align: center;
+}
