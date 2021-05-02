@@ -15,7 +15,7 @@ export default function CollectionItem(props) {
         <div className="collection-item">
             <img src={props.data.imageSource} alt={props.data.alt} />
             <div className="collection-name" onClick={scrollDown}>
-                {props.data.collectionName}
+                <p>{props.data.collectionName}</p>
             </div>
         </div>
     )
