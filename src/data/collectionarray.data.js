@@ -39,63 +39,63 @@ const COLLECTION_ARRAY = [{
     dataArray:[ { 
         title: "Img_1",
         index: 1,
-        imagePath: "spec1.jpg"  
+        imagePath: "sunglasses1.jpg"  
     },
      { 
         title: "Img_2",
         index: 2,
-        imagePath: "spec1.jpg"
+        imagePath: "sunglasses2.jpg"
     },
      { 
         title: "sunglasses_Img_3",  
         index: 3,
-        imagePath: "spec1.jpg"},
+        imagePath: "sunglasses3.jpg"},
      { 
         title: "Img_4",
         index: 4,
-        imagePath: "spec1.jpg"},
+        imagePath: "sunglasses4.jpg"},
      { 
         title: "Img_5",
         index: 5,
-        imagePath: "spec1.jpg"}]
+        imagePath: "sunglasses5.jpg"}]
 },{
     id: "lenses-item",
     collectionName: "LENSES",
     dataArray: [ 
      { title: "Img_1",
         index: 1,
-        imagePath: "spec1.jpg"},
+        imagePath: "lens1.jpg"},
      { title: "Img_2",
         index: 2,
-        imagePath: "spec1.jpg"},
+        imagePath: "lens2.jpg"},
      { title: "LENSES_Img_3",  
         index: 3,
-        imagePath: "spec1.jpg"},
+        imagePath: "lens3.jpg"},
      { title: "Img_4",
         index: 4,
-        imagePath: "spec1.jpg"},
+        imagePath: "lens4.jpg"},
      { title: "Img_5",
         index: 5,
-        imagePath: "spec1.jpg"}]
+        imagePath: "lens5.jpg"}]
 },{
     id: "watches-item",
     collectionName: "WATCHES",
     dataArray:[ { 
         title: "Img_1",
         index: 1,
-        imagePath: "spec1.jpg"},
+        imagePath: "watch1.jpg"},
      {  title: "Img_2",
         index: 2,
-        imagePath: "spec1.jpg"},
+        imagePath: "watch2.jpg"},
      {  title: "Img_3",  
         index: 3,
-        imagePath: "spec1.jpg"},
+        imagePath: "watch3.jpg"},
      {  title: "WATCHES_Img_4",
         index: 4,
-        imagePath: "spec1.jpg"},
+        imagePath: "watch4.jpg"},
      {  title: "Img_5",
         index: 5,
-        imagePath: "spec1.jpg"}]
+        imagePath: "watch5.jpg"}]
 }]
 
 export default COLLECTION_ARRAY;
