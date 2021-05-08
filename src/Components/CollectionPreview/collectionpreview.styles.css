@@ -1,8 +1,9 @@
 .collection-preview {
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 3rem 0 0 6rem;
-    width: 90%;
+    /* margin: 3rem 0 0 6rem; */
+    padding: 4%;
     gap: 1rem;
     align-self: center;
 }
