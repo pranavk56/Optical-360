@@ -16,7 +16,6 @@ export default function CollectionViewItem({collectionData}) {
     return (
         <div className="collection-view-item">
             <h2>{collectionData.collectionName}</h2>
-            <hr />
             <div className="carousel-container">
                 <ItemsCarousel
                     //Placeholder config
