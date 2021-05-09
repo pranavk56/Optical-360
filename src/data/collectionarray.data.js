@@ -96,6 +96,26 @@ const COLLECTION_ARRAY = [{
      {  title: "Pirasso BigBlack",
         index: 5,
         imagePath: "watch5.jpg"}]
+},
+{
+   id: "blublock-item",
+   collectionName: "BLU BLOCK GLASSES",
+   dataArray:[ { 
+       title: "Vincent Chase BluBlock",
+       index: 1,
+       imagePath: "blueblock1.jpg"},
+    {  title: "Vieto BluBlock 443",
+       index: 2,
+       imagePath: "blublock2.jpg"},
+    {  title: "Lois Caron BluBlock 231",  
+       index: 3,
+       imagePath: "blueblock3.jpg"},
+    {  title: "Reno BluBlock 122",
+       index: 4,
+       imagePath: "blueblock4.jpg"},
+    {  title: "Thalassa BluBlock",
+       index: 5,
+       imagePath: "blueblock5.jpg"}]
 }]
 
 export default COLLECTION_ARRAY;

@@ -7,7 +7,7 @@ function CollectionImage(props) {
     const [image, setImage] = useState();
 
     useEffect(() => {
-        import(`../../Assets/spectacles/${imagePath}`).then(setImage)
+        import(`../../Assets/collection/${imagePath}`).then(setImage)
     }, [imagePath])
 
     

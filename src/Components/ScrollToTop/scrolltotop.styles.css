@@ -1,7 +1,7 @@
 .scroll-to-top {
     float: right;
     position: fixed;
-    left: 95vw;
+    left: calc(100% - 4rem);
     bottom: 0;
     cursor: pointer;
     padding: 10px 5px 5px 0px;
