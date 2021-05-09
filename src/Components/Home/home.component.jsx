@@ -29,7 +29,7 @@ export default function Home() {
                     </p>
                 </div>
                 <h2>
-                    Find relief with <a href="#">Digital Screen Protect Glasses</a>
+                    Find relief with <a href="#blublock-item">Digital Screen Protect Glasses</a>
                 </h2>
             </div>
         </div>

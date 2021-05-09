@@ -7,3 +7,9 @@
     gap: 1rem;
     align-self: center;
 }
+
+@media screen and (max-width: 650px) {
+    .collection-preview {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
