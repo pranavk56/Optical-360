@@ -7,7 +7,7 @@ export default function ScrollToTop() {
     const [isPageScrolled, setIsPageScrolled] = useState(false)
 
     useScrollPosition(({ prevPos, currPos }) => {
-            const isShow = currPos.y < prevPos.y
+            const isShow = currPos.y < prevPos.y || currPos.y !== 0;
             if (isShow !== isPageScrolled) {
                 setIsPageScrolled(isShow)
             }
