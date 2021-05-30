@@ -13,7 +13,7 @@ export default function CollectionItem(props) {
 
     return (
         <div className="collection-item">
-            <img src={props.data.imageSource} alt={props.data.alt} />
+            <img src={process.env.PUBLIC_URL + "/" + props.data.imageSource} alt={props.data.alt} />
             <div className="collection-name" onClick={scrollDown}>
                 <p>{props.data.collectionName}</p>
             </div>

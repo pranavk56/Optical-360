@@ -6,7 +6,7 @@ import COLLECTION_ARRAY from '../../data/collectionarray.data';
 export default function CollectionView() {
 
     return (
-        <main className="collection-view">
+        <main className="collection-view" id="collectionView">
         {
             COLLECTION_ARRAY.map((elem, i) => {
                 return (
