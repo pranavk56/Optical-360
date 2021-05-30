@@ -3,7 +3,7 @@ import './contact.styles.css';
 export default function Contact() {
 
     return (
-        <main className="contact">
+        <main className="contact" id="contact">
             <h2>Contact Us</h2>
             <div className="contact-icons">
                 {/* <div className="contact-row-1"> */}
